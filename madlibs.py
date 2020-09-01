@@ -36,7 +36,7 @@ def greet_person():
 
     compliment = choice(AWESOMENESS)
 
-    return render_template("compliment.html",
+    return render_template("greet.html",
                            person=player,
                            compliment=compliment)
 
